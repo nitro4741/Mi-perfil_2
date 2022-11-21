@@ -1,0 +1,21 @@
+.container {
+    max-width: 1024px;  
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.f-elements {
+    display: flex;
+}
+
+.f-elements--header {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-elements--center {
+    align-items: center;
+    justify-content: center;
+}

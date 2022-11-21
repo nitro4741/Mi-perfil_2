@@ -1,0 +1,14 @@
+@import  './Modules/variables.css';
+@import './Modules/header.css';
+@import './Modules/layout.css';
+@import './Modules/nav.css';
+@import './Modules/list.css';
+@import './Modules/utils.css';
+
+
+.body {
+    background-color: white;
+    color: black;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}

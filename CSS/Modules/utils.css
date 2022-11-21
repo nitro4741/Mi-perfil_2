@@ -1,0 +1,11 @@
+.gap-sm {
+    gap: calc((1.5rem)*0.5);
+}
+
+.f-direction-colum {
+    flex-direction: column;
+}
+
+.gap-md {
+    gap: 1.5rem;
+}
