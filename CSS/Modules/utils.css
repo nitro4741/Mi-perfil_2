@@ -1,11 +1,23 @@
+.d-none {
+    display: none;
+}
 .gap-sm {
     gap: calc((1.5rem)*0.5);
 }
 
-.f-direction-colum {
+.f-direction-column {
     flex-direction: column;
 }
 
 .gap-md {
     gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .md\:d-block {
+        display: block;
+    }
+    .md\:f-direction-row {
+        flex-direction: row;
+    }
 }
