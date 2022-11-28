@@ -7,7 +7,7 @@
 .list--header {
     position: fixed;
     top: 5rem;
-    background-color: rgb(214, 214, 214);
+    background-color:#b6ffff;
     left: 0;
     width: 100%;
     height: calc(100% - 5rem);
@@ -20,11 +20,11 @@
     color: black;
     text-decoration: none;
     font-weight: 700;
-    transition: color 0.25s;
+    transition: color 0.25s; 
 }
 
-.list__link:hover {
-    color: rgb(244, 68, 244);
+.list__link:hover {  
+    color: #ff9800;
 
 }
 
@@ -41,4 +41,19 @@
 
 .list__link:hover::before {
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    .list--header {
+        position: static;
+        top: 5rem;
+        background-color: transparent;
+        left: 0;
+        width: auto;
+        height: auto;
+    }
+    .list__link:hover {  
+        color: rgb(255, 255, 255);
+    
+    }
 }

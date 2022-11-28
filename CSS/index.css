@@ -4,11 +4,13 @@
 @import './Modules/nav.css';
 @import './Modules/list.css';
 @import './Modules/utils.css';
+@import './Modules/cards.css';
+@import './Modules/buttons.css';
 
 
 .body {
     background-color: white;
     color: black;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--primary-font-family);
 }

@@ -1,3 +1,17 @@
+.section {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.section--hero {
+    background-image: url('/assets/img/fondo_pokemon_1.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    box-sizing: border-box;
+    
+}
+
 .container {
     max-width: 1024px;  
     margin: 0 auto;
@@ -18,4 +32,26 @@
 .f-elements--center {
     align-items: center;
     justify-content: center;
+}
+
+.f-elements--responsive {
+    flex-direction: column;
+}
+
+.g-elements{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.g-elements--responsive {
+    grid-template-columns: 100%;
+}
+
+@media (min-width: 768px) {
+    .f-elements--responsive{
+        flex-direction: row;
+    }
+    .g-elements--responsive {
+        grid-template-columns: 1fr 1fr;
+    }
 }
