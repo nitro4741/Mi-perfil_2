@@ -6,11 +6,15 @@
 @import './Modules/utils.css';
 @import './Modules/cards.css';
 @import './Modules/buttons.css';
-
+@import './Modules/hero.css';
+@import './Modules/animation.css';
 
 .body {
     background-color: white;
     color: black;
     margin: 0;
     font-family: var(--primary-font-family);
+}
+.main {
+    overflow: hidden;
 }
