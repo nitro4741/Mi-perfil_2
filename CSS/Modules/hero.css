@@ -4,7 +4,6 @@
     background-size: cover;
     min-height: 100vh;
     box-sizing: border-box;
-    
 }
 
 .hero__img {
@@ -17,7 +16,6 @@
     width: 256px;
     height: 256px;
     object-fit: cover;
-
 }
 .hero__decorators {
     position: absolute;
@@ -28,6 +26,7 @@
     margin: 0;
     animation: t-rotate 10s linear infinite;
 }
+
 .hero__decorator {
     position: absolute;
 }
@@ -54,4 +53,21 @@
     top: 50%;
     left: 0%;
     transform: translate(-50%, -50%) rotate(90deg);
+}
+
+
+@media (min-width: 768px) {
+    .hero__img {
+        max-width: 320px;
+    }
+    
+    .hero__primary-img {
+        width: 320px;
+        height: 320px;
+    }
+
+    .hero__decorators {
+        width: 320px;
+        height: 320px;
+    }
 }
