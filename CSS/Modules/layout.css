@@ -79,9 +79,15 @@
     flex-direction: column;
 }
 
-.g-elements{
+.g-elements {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.g-elements--center {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 .g-elements--responsive {
