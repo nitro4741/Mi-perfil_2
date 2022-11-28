@@ -10,7 +10,7 @@
 @import './Modules/animation.css';
 
 .body {
-    background-color: white;
+    background-color: rgb(135, 168, 115);
     color: black;
     margin: 0;
     font-family: var(--primary-font-family);
