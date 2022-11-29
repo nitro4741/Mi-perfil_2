@@ -19,6 +19,7 @@
 .card__body {
     background-color: rgba(241, 222, 164, 0.755);
     padding: 0.5rem 1rem;
+    height: 100%;
   }
 
 .card__img {

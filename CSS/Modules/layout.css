@@ -48,7 +48,15 @@
     justify-items: center;
 }
 
+.j-items-center {
+    justify-items: center;
+}
+
 .g-elements--responsive {
+    grid-template-columns: 100%;
+}
+
+.g-element--gallery {
     grid-template-columns: 100%;
 }
 
@@ -59,4 +67,13 @@
     .g-elements--responsive {
         grid-template-columns: 1fr 1fr;
     }
+
+    .g-element--gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .j-items-center {
+        justify-items: inherit;
+    }
+
 }
